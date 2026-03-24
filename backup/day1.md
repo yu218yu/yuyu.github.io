@@ -1,5 +1,6 @@
-###插值和拟合
-‘’‘ 
+# 插值和拟合
+
+```
 python
 import numpy as np
 x = np.arange(0,20)
@@ -13,10 +14,13 @@ import matplotlib.pyplot as plt
 plt.scatter(x,y,marker = 'x',lw = 1)
 plt.plot(x,y1,c = 'r')
 plt.show()
-’‘’
+
+```
 以下为插值拟合的完整代码
 包括了polyfit和curve_fit
-‘’‘
+
+
+```
 python
 
 import numpy as np
@@ -68,7 +72,12 @@ ax2.scatter(x,y,marker = 'x',lw = 0.5)
 ax2.plot(x,y1,c = 'r')
 ax3.scatter(x,y,marker = 'x',lw = 0.5)
 ax3.plot(x,y2,c = 'green')
+
+
+
 plt.show()
-’‘’
-##结果如下
-！（效果截图）（https://github.com/yu218yu/yuyu.github.io/blob/main/4a4283db-636e-4ba8-869c-df429ea66fc4.png?raw=true）
+
+```
+
+## 结果如下
+<img width="647" height="517" alt="Image" src="https://github.com/user-attachments/assets/2a5bb7eb-58da-4bfd-9725-79f4ea88dbc7" />
